@@ -1,11 +1,10 @@
- class : 1
- /////////////////////////    Command  //////////// 
+class : 1
+/////////////////////////    Command  //////////// 
 1. npm install typescript --save-dev // npm install -g typescript
 
 2. tsc --v
 
 3. tsc --init
-
 
 4.npm init -y
 
@@ -26,8 +25,8 @@ Udefined
 
 class 3: Array 
 class 4: object
-class 5:
-class 6:
+class 5: Functions
+class 6: default parameter & destructuring 
 
 
 
