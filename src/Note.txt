@@ -1,5 +1,6 @@
+module : 2 
 class : 1
-/////////////////////////    Command  //////////// 
+/////////////////////////   Command  //////////// 
 1. npm install typescript --save-dev // npm install -g typescript
 
 2. tsc --v
@@ -13,6 +14,8 @@ class : 1
 6.  npm i ts-node-dev
 
 7. ts-node-dev --respawn --transpile-only server.ts
+
+8. 
 
 
 Class : 2 
@@ -30,7 +33,23 @@ class 6: default parameter & destructuring
 class 7: Alis 
 class 8: union Intersection
 class 9: Null able unknown never 
-class 10:  Ternary operator .
+class 10: Ternary operator .
+
+
+
+Module 3 : 
+
+class 1 : Type Assertion 
+class 2 : Generic in Type 
+class 3 : Generic in type
+class 4 : Generic in interface
+class 5 : Generic in function
+class 6 : Constrains in Generics
+class 7 : 
+class 8 : 
+class 9 : 
+class 10 :
+
 
 
 
