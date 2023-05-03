@@ -1,35 +1,14 @@
-const users:{
-    name:string,
-    age:number,
-    girlfriend:string,
-    isMarried:boolean,
-    wife:string,
+// const user: {
+//   company: "Programming Hero";
+//   name: string;
+//   age: number;
+//   isMarried: boolean;
+//   wife?: string;
+// } = {
+//   company: "Programming Hero",
+//   name: "Montu Mia",
+//   age: 52,
+//   isMarried: true,
+// };
 
-}={
-
-    name:'Hazrat Ali',
-    age : 21,
-    girlfriend : 'Mitu',
-    isMarried:false,
-    wife:"Dak Nam Jan pakhi,But Bujate parlam na koto ta valobashi",
-};
-
-//
-
-/*const users:{
-    company : string;
-    name:string,
-    age:number,
-    girlfriend:string,
-    isMarried:boolean,
-    wife:string,
-
-}={
-    company : "Programming Hero"
-    name:'Hazrat Ali',
-    age : 21,
-    girlfriend : 'Mitu',
-    isMarried:false,
-    wife:"Dak Nam Jan pakhi,But Bujate parlam na koto ta valobashi",
-};*/
-
+// user.company = "Programming Hero";

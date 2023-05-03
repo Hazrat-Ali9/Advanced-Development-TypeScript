@@ -1,48 +1,33 @@
-// Union-Intersection : 
-
-type NoobDeveloper ={
-    name:string
-}
-
-// type JuniorDeveloper ={
-
-//     name : string ;
-//     expertise : string ;
-//     experience : number;
-
+// type NoobDeveloper = {
+//   name: string;
 // };
 
-type JuniorDeveloper = NoobDeveloper & {
-    expertise : string ;
-     experience : number;
-}
+// // type JuniorDeveloper = {
+// //   name: string;
+// //   expertise: string;
+// //   experience: number;
+// // };
 
-enum Level {
-    Junior ='Junior',
-    Mid ='Mid',
-    Senior ='Senior',
-}
+// type JuniorDeveloper = NoobDeveloper & {
+//   expertise: string;
+//   experience: number;
+// };
 
-type Nextleveleveloper= JuniorDeveloper &{
-   leadershipExperience:number;
-//    level : "Junior" | "Mid"| "Senior";
- level: Level;
+// type NextLevelDeveloper = JuniorDeveloper & {
+//   leadershipExperience: number;
+//   level: "junior" | "mid" | "senior";
+// };
 
-}; 
+// const newDeveloper: NoobDeveloper | JuniorDeveloper = {
+//   name: "Moznu Mia",
+//   expertise: "Javascript",
+//   experience: 1,
+// };
 
-
-
-const newDeveloper : NoobDeveloper| JuniorDeveloper={
-    name : 'Hazrat Ali',
-    expertise : 'JavaScript',
-    experience : 1,
-
-};
-
-const developer : Nextleveleveloper={
-    name : 'Hazrat Ali',
-    expertise : 'TypeScript',
-    experience : 2,
-    leadershipExperience: 1,
-    level: Level.Mid,
-};
+// const developer: NextLevelDeveloper = {
+//   name: "Next Bhai",
+//   expertise: "Typescript",
+//   experience: 2,
+//   leadershipExperience: 1,
+//   level: "senior",
+// };

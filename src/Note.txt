@@ -27,6 +27,10 @@ class 3: Array
 class 4: object
 class 5: Functions
 class 6: default parameter & destructuring 
+class 7: Alis 
+class 8: union Intersection
+class 9: Null able unknown never 
+class 10:  Ternary operator .
 
 
 
