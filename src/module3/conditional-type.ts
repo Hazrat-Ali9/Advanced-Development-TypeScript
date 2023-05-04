@@ -1,4 +1,4 @@
-// a type is dependent on another type
+// a type is dependent on another type : 
 
 type a1 = number;
 type a3 = undefined;
@@ -20,6 +20,7 @@ type Sheikh = {
 };
 
 type A = keyof Sheikh; // 'wife1' | 'wife2'
+
 // 'wife3' extends 'wife1' | 'wife2
 type CheckProperty<T, K> = K extends keyof Sheikh ? true : false;
 

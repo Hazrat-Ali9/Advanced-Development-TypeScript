@@ -15,7 +15,7 @@ class : 1
 
 7. ts-node-dev --respawn --transpile-only server.ts
 
-8. 
+8. npx ts-node-dev --respawn src/module-3/
 
 
 Class : 2 

@@ -17,7 +17,7 @@ const rectangularArea: AreaNumber = {
   width: 12,
 };
 
-type A = AreaNumber["height"]; // look up types
+type M = AreaNumber["height"]; // look up types
 type B = keyof AreaNumber; // 'width' | 'height'
 
 // const obj={

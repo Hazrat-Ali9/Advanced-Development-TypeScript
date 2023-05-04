@@ -3,7 +3,7 @@ interface CrushInterface<T, U = null> {
   name: string;
   husband: T;
   wife?: U;
-  other: V;
+  //other: V;
 }
 
 interface PersonInterface {
@@ -51,7 +51,7 @@ type GenericTuple<X, Y> = [X, Y];
 
 const relation: GenericTuple<string, string> = ["Mitu", "Hazrat Ali"];
 
-// type RelationWithSalaryType = { name: string; salary: number };
+type RelationWithSalaryType = { name: string; salary: number };
 
 interface RelationWithSalaryInterface {
   name: string;
@@ -93,5 +93,5 @@ const userNameAndRollNumbers: GenericArray<NameRollType> = [
   },
 ];
 
-add(x, y, z);
-add(3, 4, 5);
+// add(x, y, z);
+// add(3, 4, 5);
