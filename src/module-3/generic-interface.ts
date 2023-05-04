@@ -12,13 +12,13 @@ interface PersonInterface {
 }
 
 const crush4: CrushInterface<PersonInterface, PersonInterface> = {
-  //name: "Kate",
+  name: "Kate",
   husband: {
-    name: "Hazrat Ali",                       // Raf : Kate Winslet -> "Hazrat Ali"
+    name: "Hazrat Ali",                       // Raf : Kate Winslet-----> "Hazrat Ali"
    age: 22,                                  
   },
   wife: {
-    name: "Mitu",                               //Persian ----> "Mitu"
+    name: "Mitu",                               //Raf : Persian ----> "Mitu"
     age: 22,
   },
 };
@@ -26,12 +26,12 @@ const crush4: CrushInterface<PersonInterface, PersonInterface> = {
 const crush1: CrushInterface<boolean, string> = {
   name: "Hazrat Ali",
   husband: true,
-  wife: "Mitu",
+  wife: "Mitu",            // CSE Engineer 
 };
 
 const crush2: CrushInterface<string> = {
   name: "Hazrat Ali",
-  husband: "Mitu",
+  husband: "Mitu",               // Doctor 
 };
 
 interface HusbandInterface {
@@ -49,7 +49,7 @@ const crush3: CrushInterface<HusbandInterface> = {
 
 type GenericTuple<X, Y> = [X, Y];
 
-const relation: GenericTuple<string, string> = ["Persian", "Kate Winslet"];
+const relation: GenericTuple<string, string> = ["Mitu", "Hazrat Ali"];
 
 // type RelationWithSalaryType = { name: string; salary: number };
 
@@ -60,10 +60,10 @@ interface RelationWithSalaryInterface {
 
 const relationWithSalary: GenericTuple<RelationWithSalaryInterface, string> = [
   {
-    name: "Persian",
+    name: "Mitu",
     salary: 1000000000,
   },
-  "Kate Winslet",
+  "Hazrat Ali",
 ];
 
 const relationWithSalary2: GenericTuple<RelationWithSalaryType, string> = [
